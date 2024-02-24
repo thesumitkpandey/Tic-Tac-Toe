@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+
+}
+.logo{
+    height:25%;
+    width: 7%;
+}
+.players-section{
+    display: flex;
+}
+.players{
+    display:flex;
+}
+body{
+    background-color: blueviolet;
+}
+.game-container{
+    background-color: black;
+    width: 45%;
+    margin:auto;
+    height: 80vh;
+}
