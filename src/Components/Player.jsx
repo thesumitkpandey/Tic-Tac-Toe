@@ -25,7 +25,7 @@ export default function Player({ initialPlayerName, symbol }) {
                 onChange={handleNameChange}
                 readOnly={btnName === "Edit"}
             />
-            <div className="player-symbol">{symbol}</div>
+            <span className="player-symbol">{symbol}</span>
             <button onClick={handleNameEdit}>{btnName}</button>
         </div>
     );

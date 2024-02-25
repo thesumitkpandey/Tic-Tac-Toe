@@ -1,23 +1,35 @@
+body{
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+
+}
 .container{
-    text-align: center;
+   text-align: center;
+
 
 }
 .logo{
-    height:25%;
-    width: 7%;
+    height: 20vh;
+    width: 20vw;
 }
 .players-section{
     display: flex;
 }
-.players{
-    display:flex;
+
+
+
+
+
+
+
+.box-row{
+    display: flex;
 }
-body{
-    background-color: blueviolet;
-}
-.game-container{
-    background-color: black;
-    width: 45%;
-    margin:auto;
-    height: 80vh;
+.individual-box{
+    background-color:aliceblue;
+    height: 17vh;
+    width:8vw;
+    margin: 0.5vh;
+    border-radius: 15%;
 }

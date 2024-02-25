@@ -6,13 +6,11 @@ export default function App(){
     return (
         <div className="container">
             <img src={logo} className="logo" alt="logo"/>
-            <div className="game-container">
-                <div className="players-section">
+            <div className="players-section">
                     <Player initialPlayerName="Player X"/>
                     <Player initialPlayerName="Player O"/>
-                </div>
-                <Game/>
             </div>
+            <Game/>
         </div>
     )
 }
