@@ -1,35 +1,36 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
     background-color: blueviolet;
-    margin: 0px;
-    padding: 0px;
-
-}
-.container{
-   text-align: center;
-
-
 }
 .logo{
-    height: 20vh;
-    width: 20vw;
+    height: 19vh;
+    width: 29vh;
 }
 .players-section{
     display: flex;
 }
-
-
-
-
-
-
-
-.box-row{
-    display: flex;
+.players input{
+    height: 4vh;
+    background-color: #f2f2f2;
+    width: 13vw;
+    border:yellowgreen;
 }
-.individual-box{
-    background-color:aliceblue;
-    height: 17vh;
-    width:8vw;
-    margin: 0.5vh;
-    border-radius: 15%;
+.players button{
+    background-color: yellow;
+    
+    border-radius: 5px;
+    font-size: 1.3em;
+    width: 5vw;
+
+}
+.square{
+    background-color: white;
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+}
+.row{
+    display: flex;
 }
