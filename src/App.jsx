@@ -1,7 +1,7 @@
 import Player from "./Components/Player.jsx";
 import logo from "../public/logo.jpg";
 import Game from "./Components/Game.jsx";
-import "./App.css";
+
 export default function App(){
     return (
         <div className="container">
